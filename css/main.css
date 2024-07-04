@@ -1,0 +1,141 @@
+body
+{
+    background-color: #272B30;
+}
+header
+{
+    /* background-image: linear-gradient(rgba(2, 11, 24, 0.9),rgba(2, 11, 26, 0.9)),url(../imge/wraper.png); */
+    background-color:#272B30;
+    height: 200px;
+
+}
+
+.nav1
+{
+   z-index: 9;
+   top: 1%;
+}
+
+
+.bg-nav
+{
+    background-color: #3A497B;
+}
+.nav-border
+{
+    border: 2px solid #32353A ;
+    border-radius:30px !important ;
+}
+h1, h2, h3, h4, h5, h6,span {
+    font-family: "Nerko One", cursive;
+    color: white !important;
+}
+.nav-link
+{
+    color: white;
+}
+.navbar-nav .nav-link.active
+{
+    color: #0099CC;
+}
+.nav-item a:hover
+{
+    color: #0099CC !important;
+
+}
+.bg-span
+{
+    background-color: #0D6EFD;
+    border: #0099CC solid 2px;
+    border-radius: 10px;
+}
+.p-style
+{
+    color: #828487;
+}
+.foot span
+{
+    background-color: #32383E;
+    color: white;
+    border: 1px solid #32383E;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.bg-card
+{
+    background-color: transparent;
+}
+.border-color
+{
+    border: #32383E 1px solid;
+    border-radius: 5px;
+}
+
+.layer
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+ bottom: 0;
+ /* height: 100vh; */
+    background-color: #27282B;
+    z-index: 999999;
+}
+.layer span
+{
+    background-color: #0099CC;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+    color: black !important;
+    font-size: 18px;
+    
+
+}
+.layer p
+{
+    color: #FFFFFF;
+}
+.layer button
+{
+    color: white;
+    background-color: transparent;
+    border:2px solid #FFC107 ;
+    border-radius:10px ;
+}
+.layer button:hover{
+    background-color: #FFC107;
+}
+.hov
+{
+    transition:all .5s;
+}
+
+.hov:hover
+{
+    transform: scale(1.1);
+   
+}
+.loader
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+ 
+    display:none;
+    justify-content: center;
+    align-items: center;
+    background-color: #151a2e;
+    opacity: 80%;
+    z-index: 999;
+}
+.loader i{
+    
+    font-size: 60px;
+}
+.layer 
+{
+    overflow: auto !important;
+}
